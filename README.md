@@ -41,3 +41,4 @@ If you want to use components from the UIkit, check the [Storybook documentation
 
 ## Custom config
 - urls: src/widgets/Menu/config.ts
+- cake prices: src/widgets/Menu/components/CakePrice.tsx
