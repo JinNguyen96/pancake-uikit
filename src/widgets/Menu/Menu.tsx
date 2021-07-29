@@ -73,7 +73,7 @@ const Menu: React.FC<NavProps> = ({
   cakePriceUsd,
   links,
   profile,
-  children,
+  children
 }) => {
   const { isXl } = useMatchBreakpoints();
   const isMobile = isXl === false;
@@ -125,7 +125,7 @@ const Menu: React.FC<NavProps> = ({
         {!!login && !!logout && (
           <Flex>
             <UserBlock account={account} login={login} logout={logout} />
-            {profile && <Avatar profile={profile} />}
+            {/* {profile && <Avatar profile={profile} />} */}
           </Flex>
         )}
       </StyledNav>
